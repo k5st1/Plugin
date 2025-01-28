@@ -1,14 +1,13 @@
-name: GoodPomoc
+name: DiscordLink
 version: 1.0
-main: org.GoodPomoc.Alchemik.GoodPomoc
-api-version: 1.19
-author: _Alchemik
+main: k5st1.DiscordLinkPlugin
+api-version: 1.19.2
 commands:
-  pomoc:
-    description: Zgłoś coś administratorowi
-    usage: /pomoc <treść>
-
-  permissions:
-    pomoc.view:
-      description: Pozwala Administratorowi widzieć zgłoszenia graczy
-      default: op
+  dc:
+    description: Wyświetla GUI dla połączenia z kontem Discord.
+    usage: /dc
+    permission: discordlink.use
+permissions:
+  discordlink.use:
+    description: Uprawnienia do korzystania z komendy /dc
+    default: true
