@@ -1,0 +1,14 @@
+name: GoodPomoc
+version: 1.0
+main: org.GoodPomoc.Alchemik.GoodPomoc
+api-version: 1.19
+author: _Alchemik
+commands:
+  pomoc:
+    description: Zgłoś coś administratorowi
+    usage: /pomoc <treść>
+
+  permissions:
+    pomoc.view:
+      description: Pozwala Administratorowi widzieć zgłoszenia graczy
+      default: op
